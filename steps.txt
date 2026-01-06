@@ -1,0 +1,46 @@
+Step 1: Open Cursor’s terminal and run
+> pip install streamlit yfinance pandas numpy matplotlib scikit-learn
+
+Step 2: Create the app.py file
+
+Step 3: Run the app on Cursor's terminal
+> streamlit run app.py
+
+Step 4: Create requirements.txt
+
+Step 5: Push your app to GitHub. Your repo should include app.py and requirements.txt
+
+1. Create a GitHub repository
+- Sign in to github.com
+- Click New repository
+- Give it a name (e.g., my-python-scripts)
+- Choose Public or Private
+- Click Create repository
+You’ll now see a page with instructions like:
+git remote add origin https://github.com/yourname/my-python-scripts.git
+
+Create a new repository on the command line
+echo "# Stock_market_analysis_test01" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:fwzeng/Stock_market_analysis_test01.git
+git push -u origin main
+
+Step 6: Go to
+
+👉 https://streamlit.io/cloud
+
+Sign in with GitHub
+
+Click “New app”
+
+Select your repo
+
+Main file: app.py
+
+Click Deploy
+
+🎉 You’ll get a URL like:
+https://your-app-name.streamlit.app
